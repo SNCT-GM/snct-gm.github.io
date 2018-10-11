@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+table th {
+    background-color: #192851;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+table .horario {
+    text-align: center;
+}
+
+table td {
+    padding: 5px 10px;
+    border-bottom: 1.2pt solid #192851;
+}
+
+table tr:hover {
+    background-color: #7c8ec0;
+}

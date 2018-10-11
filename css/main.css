@@ -1,0 +1,104 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+    background-color: #ffffff;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    background-image: url("../img/bg_header.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+    margin: 0 0;
+    max-height: 190px;
+}
+.container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.top {
+    max-height: 150px;
+}
+
+.menu {
+    align-content: center;
+
+    background-color: #192851;
+    color: #ffffff; 
+    list-style: none;
+
+    filter: alpha(opacity=95);
+
+    opacity: 0.95;
+     -moz-opacity:0.95;
+     -webkit-opacity:0.95;
+
+    height: 40px;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.menu li {
+    display: inline;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+       position: initial;
+    }
+
+    footer .insta {
+        position: fixed;
+        margin: 5px 5px;
+        right: 0;
+        bottom: 0;
+     }
+}
+
+@media only screen and (min-width: 600px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+    footer .insta {
+        margin: 0px 10px;        
+    }
+}
+
+footer {
+    font-size: 13px;
+    width: 100%;
+    padding: 5px 0;
+
+    background-color: #192851;
+    color: #ffffff;
+}
+
