@@ -21,7 +21,7 @@ function render(tipo_atividade, programacao){
     document.querySelector("#"+tipo_atividade).innerHTML = tmp;
 }
 
-fetch("https://raw.githubusercontent.com/SNCT2018/snct2018.github.io/master/programacao.json")
+fetch("./programacao.json")
 .then(function(res){
     return res.json();
 })
