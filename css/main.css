@@ -23,13 +23,13 @@ header {
     margin-right: auto;
     margin-left: auto;
 
-    padding-right: 15px;
-    padding-left: 15px;
     width: 100%;
+    padding: 0;
 }
 
 .top {
     max-height: 150px;
+    padding: 0;
 }
 
 .menu {
@@ -53,8 +53,11 @@ header {
 .menu li {
     display: inline;
     text-transform: uppercase;
-    padding-top: 10px;
-    padding-right: 20px;
+    padding: 10px 10px;
+}
+
+.menu li:hover {
+    background-color: #7c8ec0;
 }
 
 .banner {
@@ -102,3 +105,13 @@ footer {
     color: #ffffff;
 }
 
+@media only screen and (max-width: 400px) {
+    body {
+        width: 400px;
+    }
+
+    .logo_snct {
+       max-width: 180px;
+       height: auto;
+    }
+}
