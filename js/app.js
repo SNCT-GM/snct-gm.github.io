@@ -23,10 +23,9 @@ function render(tipo_atividade, programacao){
 
 fetch("https://raw.githubusercontent.com/SNCT2018/snct2018.github.io/master/programacao.json")
 .then(function(res){
-    return res.json()
+    return res.json();
 })
 .then(function(programacao){
-    render("palestras", programacao.palestras)
-    render("minicursos", programacao.minicursos)
-    console.log(programacao)
+    render("palestras", programacao.palestras);
+    render("minicursos", programacao.minicursos);
 });
