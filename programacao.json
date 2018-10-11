@@ -1,12 +1,12 @@
-const programacao = {
+{
     "palestras" : [
         {
-            data : "16/10/2018",
-            atividades : [
+            "data" : "16/10/2018",
+            "atividades" : [
                 {
-                    horario: "08:30",
-                    titulo : "Abertura",
-                    convidado : "Comissão Organizadora, Direção Geral, Direção Acadêmica"
+                    "horario": "08:30",
+                    "titulo" : "Abertura",
+                    "convidado" : "Comissão Organizadora, Direção Geral, Direção Acadêmica"
                 },
                 {
                     "horario": "09:00",
@@ -41,8 +41,8 @@ const programacao = {
             ]
         },
         {
-            data : "17/10/2018",
-            atividades : [
+            "data" : "17/10/2018",
+            "atividades" : [
                 {
                     "horario": "09:00",
                     "titulo" : "A confirmar",
@@ -76,8 +76,8 @@ const programacao = {
             ]
         },
         {
-            data : "18/10/2018",
-            atividades : [
+            "data" : "18/10/2018",
+            "atividades" : [
                 {
                     "horario": "09:00",
                     "titulo" : "Agroecologia",
@@ -111,11 +111,11 @@ const programacao = {
             ]
         }
     ],
-    
+
     "minicursos" : [
         {
-            data : "16/10/2018",
-            atividades : [
+            "data" : "16/10/2018",
+            "atividades" : [
                 {
                     "horario": "13:00-15:00",
                     "titulo" : "Difundindo os saberes dos quintais",
@@ -124,8 +124,8 @@ const programacao = {
             ]
         },
         {
-            data : "17/10/2018",
-            atividades : [
+            "data" : "17/10/2018",
+            "atividades" : [
                 {
                     "horario": "08:00-12:00",
                     "titulo" : "Iniciação à informática: uma nova visão",
@@ -164,8 +164,8 @@ const programacao = {
             ]
         },
         {
-            data : "18/10/2018",
-            atividades : [
+            "data" : "18/10/2018",
+            "atividades" : [
                 {
                     "horario": "08:00-12:00",
                     "titulo" : "Plantas alimentícias não convencionais: segurança, soberania alimentar, preservação e valorização cultural",

@@ -1,8 +1,8 @@
-function render(tipo_atividade){
+function render(tipo_atividade, programacao){
     var tmp = "";
 
-    for(var i=0; i < programacao[tipo_atividade].length; i++){
-        const dia = programacao[tipo_atividade][i];
+    for(var i=0; i < programacao.length; i++){
+        const dia = programacao[i];
 
         tmp += '<tr><th colspan="3">'+ dia.data +'</th></tr>';
 
@@ -21,5 +21,12 @@ function render(tipo_atividade){
     document.querySelector("#"+tipo_atividade).innerHTML = tmp;
 }
 
-render("palestras")
-render("minicursos")
+fetch("https://raw.githubusercontent.com/SNCT2018/snct2018.github.io/master/programacao.json")
+.then(function(res){
+    return res.json()
+})
+.then(function(programacao){
+    render("palestras", programacao.palestras)
+    render("minicursos", programacao.minicursos)
+    console.log(programacao)
+});
