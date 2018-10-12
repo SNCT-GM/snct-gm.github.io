@@ -30,8 +30,9 @@ fetch("./programacao.json")
     render("minicursos", programacao.minicursos);
 });
 
-const banner = document.querySelector(".banner");
-banner.src = banner.getAttribute("img-src")
-
+//Lazy Loading
 const header = document.querySelector("header");
-header.style.backgroundImage = "url('./img/bg_header.png')"
+header.style.backgroundImage = "url('./img/bg_header.png')";
+
+const banner = document.querySelector(".banner");
+banner.src = banner.getAttribute("img-src");
