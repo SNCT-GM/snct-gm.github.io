@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url("../img/bg_header.png");
+    background-image: url("../img/pix.png");
     background-size: cover;
     display: flex;
     flex-direction: column;

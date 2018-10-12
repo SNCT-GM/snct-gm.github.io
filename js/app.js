@@ -32,3 +32,6 @@ fetch("./programacao.json")
 
 const banner = document.querySelector(".banner");
 banner.src = banner.getAttribute("img-src")
+
+const header = document.querySelector("header");
+header.style.backgroundImage = "url('./img/bg_header.png')"
