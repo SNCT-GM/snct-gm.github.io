@@ -29,3 +29,6 @@ fetch("./programacao.json")
     render("palestras", programacao.palestras);
     render("minicursos", programacao.minicursos);
 });
+
+const banner = document.querySelector(".banner");
+banner.src = banner.getAttribute("img-src")
