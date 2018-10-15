@@ -178,5 +178,18 @@
                 }
             ]
         }
+    ],
+
+    "banners" : [
+        {
+            "data" : "16/10/2018 e 17/10/2018",
+            "atividades" : [
+                {
+                    "horario": "12:30-16:30",
+                    "titulo" : "Apresentação de trabalhos acadêmicos",
+                    "convidado" : ""
+                }
+            ]
+        }
     ]
 }

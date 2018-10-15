@@ -81,8 +81,35 @@ header {
     text-align: center;
 }
 
-.programacao {
+.comissao {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
     margin-bottom: 70px;
+
+    text-align: center;
+}
+
+.comissao .titulo {
+    background-color: #192851;
+    color: #ffffff;
+    margin: 0 0;
+    padding: 10px 0;
+}
+
+.comissao h3 {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.comissao ul {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.comissao li {
+    list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {

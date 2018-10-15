@@ -28,6 +28,7 @@ fetch("./programacao.json")
 .then(function(programacao){
     render("palestras", programacao.palestras);
     render("minicursos", programacao.minicursos);
+    render("banners", programacao.banners);
 });
 
 //Lazy Loading
