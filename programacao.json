@@ -25,8 +25,8 @@
                 },
                 {
                     "horario": "13:00",
-                    "titulo" : "Democratizando a checagem de informação na sociedade da (des)informação",
-                    "convidado" : "Caio Almeida"
+                    "titulo" : "Alimentando saberes: ciência e gastronomia para transformação social",
+                    "convidado" : "Gabriela Brito"
                 },
                 {
                     "horario": "14:30",
@@ -35,8 +35,8 @@
                 },
                 {
                     "horario": "15:30",
-                    "titulo" : "Alimentando saberes: ciência e gastronomia para transformação social",
-                    "convidado" : "Gabriela Brito"
+                    "titulo" : "Democratizando a checagem de informação na sociedade da (des)informação",
+                    "convidado" : "Caio Almeida"
                 }
             ]
         },
@@ -45,8 +45,8 @@
             "atividades" : [
                 {
                     "horario": "09:00",
-                    "titulo" : "A confirmar",
-                    "convidado" : "Neide Pinto"
+                    "titulo" : "Etnografia musical e população de rua",
+                    "convidado" : "Juracy do Amor"
                 },
                 {
                     "horario": "10:00",
@@ -70,8 +70,8 @@
                 },
                 {
                     "horario": "15:30",
-                    "titulo" : "A confirmar",
-                    "convidado" : "A confirmar"
+                    "titulo" : "O papel das instituições de ensino na promoção da acessibilidade",
+                    "convidado" : "Neide Pinto"
                 }
             ]
         },
@@ -185,7 +185,7 @@
             "data" : "16/10/2018 e 17/10/2018",
             "atividades" : [
                 {
-                    "horario": "12:30-16:30",
+                    "horario": "13:00-17:00",
                     "titulo" : "Apresentação de trabalhos acadêmicos",
                     "convidado" : ""
                 }
